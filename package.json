@@ -4,8 +4,9 @@
   "description": "This library contains different functions to generate some random data (integer, float, string and other values)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'tests/*.test.js'"
   },
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QANSIGLIERE/RandomDataGenerators.git"
@@ -13,12 +14,17 @@
   "keywords": [
     "random",
     "data",
-    "qansigliere"
+    "qansigliere",
+    "node"
   ],
   "author": "qansigliere@gmail.com",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/QANSIGLIERE/RandomDataGenerators/issues"
   },
-  "homepage": "https://github.com/QANSIGLIERE/RandomDataGenerators#readme"
+  "homepage": "https://github.com/QANSIGLIERE/RandomDataGenerators#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^10.7.0"
+  }
 }
