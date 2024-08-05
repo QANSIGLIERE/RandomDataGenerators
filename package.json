@@ -1,6 +1,6 @@
 {
-  "name": "qansigliere-randomdatagenerators",
-  "version": "0.1.2",
+  "name": "qansigliere-rdg",
+  "version": "0.1.2a",
   "description": "This library contains different functions to generate some random data (integer, float, string and other values)",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/QANSIGLIERE/RandomDataGenerators/issues"
   },
-  "homepage": "https://github.com/QANSIGLIERE/RandomDataGenerators#readme",
-  "dependencies": {
-    "expect.js": "^0.3.1",
-    "mocha": "^10.7.0"
-  }
+  "homepage": "https://github.com/QANSIGLIERE/RandomDataGenerators#readme"
 }
