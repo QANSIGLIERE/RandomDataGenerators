@@ -4,6 +4,8 @@ The library is based on the Javascript programming language and it contains a se
 
 ## Installing
 
+Using npm: '''$ npm i qansigliere-randomdatagenerators'''
+
 ## Functions
 
 -   randomInteger - it returns a random integer value from 0 to the specified maximum value, but the maximum value is
@@ -21,3 +23,15 @@ The library is based on the Javascript programming language and it contains a se
 -   randomStringFromTemplate - it returns a random string value according to the specified template and character set
 
 ## Example
+
+### CommonJS
+
+'''
+
+'''
+
+### ES Module
+
+'''
+
+'''
