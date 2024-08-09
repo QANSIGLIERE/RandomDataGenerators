@@ -9,6 +9,12 @@ var {
     randomEmail,
     randomIP,
     randomStringFromTemplate,
+    randomTimeZone,
+    randomCurrency,
+    randomEmoji,
+    randomColor,
+    randomCarType,
+    randomCarBrand,
 } = require('../lib/randomDataGenerators.js');
 var expect = require('expect.js');
 
@@ -169,5 +175,105 @@ describe('Random Data Generators library', () => {
     it('randomStringFromTemplate: Validate the function returns a random string with the correct length', () => {
         const result = randomStringFromTemplate();
         expect(result).to.have.length(9);
+    });
+
+    it('randomTimeZone: Validate the function returns an object', () => {
+        const result = randomTimeZone();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomTimeZone: Validate keys in the returned JSON', () => {
+        const result = randomTimeZone();
+        expect(result).to.only.have.keys('name', 'value');
+    });
+
+    it('randomTimeZone: Validate the the value of name', () => {
+        const result = randomTimeZone();
+        expect(result['name']).to.be.a('string');
+    });
+
+    it('randomTimeZone: Validate the the value of value', () => {
+        const result = randomTimeZone();
+        expect(result['value']).to.be.a('string');
+    });
+
+    it('randomCurrency: Validate the function returns an object', () => {
+        const result = randomCurrency();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomCurrency: Validate keys in the returned JSON', () => {
+        const result = randomCurrency();
+        expect(result).to.only.have.keys('country', 'currency_code', 'symbol');
+    });
+
+    it('randomCurrency: Validate the the value of country', () => {
+        const result = randomCurrency();
+        expect(result['country']).to.be.a('string');
+    });
+
+    it('randomCurrency: Validate the the value of currency_code', () => {
+        const result = randomCurrency();
+        expect(result['currency_code']).to.be.a('string');
+    });
+
+    it('randomCurrency: Validate the the value of symbol', () => {
+        const result = randomCurrency();
+        expect(result['symbol']).to.be.a('string');
+    });
+
+    it('randomEmoji: Validate the function returns an object', () => {
+        const result = randomEmoji();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomEmoji: Validate keys in the returned JSON', () => {
+        const result = randomEmoji();
+        expect(result).to.only.have.keys('emoji', 'name', 'unicode');
+    });
+
+    it('randomEmoji: Validate the the value of emoji', () => {
+        const result = randomEmoji();
+        expect(result['emoji']).to.be.a('string');
+    });
+
+    it('randomEmoji: Validate the the value of name', () => {
+        const result = randomEmoji();
+        expect(result['name']).to.be.a('string');
+    });
+
+    it('randomEmoji: Validate the the value of unicode', () => {
+        const result = randomEmoji();
+        expect(result['unicode']).to.be.a('string');
+    });
+
+    it('randomColor: Validate the function returns an object', () => {
+        const result = randomColor();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomColor: Validate keys in the returned JSON', () => {
+        const result = randomColor();
+        expect(result).to.only.have.keys('color', 'code');
+    });
+
+    it('randomColor: Validate the the value of color', () => {
+        const result = randomColor();
+        expect(result['color']).to.be.a('string');
+    });
+
+    it('randomColor: Validate the the value of code', () => {
+        const result = randomColor();
+        expect(result['code']).to.be.a('string');
+    });
+
+    it('randomCarType: Validate the function returns a string', () => {
+        const result = randomCarType();
+        expect(result).to.be.an('string');
+    });
+
+    it('randomCarBrand: Validate the function returns a string', () => {
+        const result = randomCarBrand();
+        expect(result).to.be.an('string');
     });
 });
