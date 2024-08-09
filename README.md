@@ -4,7 +4,7 @@ The library is based on the Javascript programming language and it contains a se
 
 ## Installing
 
-Using npm: '''$ npm i qansigliere-randomdatagenerators'''
+Using npm: ```$ npm i qansigliere-randomdatagenerators```
 
 ## Functions
 
@@ -26,12 +26,12 @@ Using npm: '''$ npm i qansigliere-randomdatagenerators'''
 
 ### CommonJS
 
-'''
+```
 
-'''
+```
 
 ### ES Module
 
-'''
+```
 
-'''
+```
