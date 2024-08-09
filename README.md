@@ -2,9 +2,13 @@
 
 The library is based on the Javascript programming language and it contains a set of functions to generate some data
 
+## Author
+
+https://www.youtube.com/@QANSIGLIERE/
+
 ## Installing
 
-Using npm: ```$ npm i qansigliere-randomdatagenerators```
+Using npm: `npm i qansigliere-randomdatagenerators`
 
 ## Functions
 
@@ -27,11 +31,108 @@ Using npm: ```$ npm i qansigliere-randomdatagenerators```
 ### CommonJS
 
 ```
+var {
+  randomInteger,
+  randomFloat,
+  randomIntegerBetweenMinMax,
+  randomArrayItem,
+  randomBoolean,
+  randomString,
+  randomPhoneNumber,
+  randomEmail,
+  randomIP,
+  randomStringFromTemplate,
+} = require("qansigliere-randomdatagenerators");
 
+console.log(randomInteger(9));
+console.log(randomFloat(9, 3));
+console.log(randomIntegerBetweenMinMax(1, 5));
+console.log(randomArrayItem(["a", "b", "c"]));
+console.log(randomBoolean());
+console.log(randomString(8));
+console.log(randomPhoneNumber());
+console.log(randomEmail());
+console.log(randomIP());
+console.log(randomStringFromTemplate());
+// with changed templates
+console.log(randomString(5, "abc"));
+console.log(randomPhoneNumber("xxx-xxxx-xx-xx"));
+console.log(randomEmail("xxx+123@yyyyyy.zzzzzz"));
+console.log(randomStringFromTemplate("xxxxx-xxxxx-xxxxx", "abc123"));
+```
+
+Output
+
+```
+8 // andomInteger
+2.328 // randomFloat
+3 // randomIntegerBetweenMinMax
+a // randomArrayItem
+false // randomBoolean
+bvhiubuk // randomString
++0(890)1608497 // randomPhoneNumber
+lkcmadmwhd@shzxorxxna.qvp // randomEmail
+22.53.101.41 // randomIP
+5A31c-cDE // randomStringFromTemplate
+// with changed templates
+acbbc // randomString
+342-4550-44-98 // randomPhoneNumber
+wiopcjxowh+123@isugadikakyyy.jiezzz // randomEmail
+112ab-b3222-1113a // randomStringFromTemplate
 ```
 
 ### ES Module
 
 ```
+// CommonJS
 
+import {
+  randomInteger,
+  randomFloat,
+  randomIntegerBetweenMinMax,
+  randomArrayItem,
+  randomBoolean,
+  randomString,
+  randomPhoneNumber,
+  randomEmail,
+  randomIP,
+  randomStringFromTemplate,
+} from "qansigliere-randomdatagenerators";
+
+console.log(randomInteger(9));
+console.log(randomFloat(9, 3));
+console.log(randomIntegerBetweenMinMax(1, 5));
+console.log(randomArrayItem(["a", "b", "c"]));
+console.log(randomBoolean());
+console.log(randomString(8));
+console.log(randomPhoneNumber());
+console.log(randomEmail());
+console.log(randomIP());
+console.log(randomStringFromTemplate());
+
+console.log(randomString(5, "abc"));
+console.log(randomPhoneNumber("xxx-xxxx-xx-xx"));
+console.log(randomEmail("xxx+123@yyyyyy.zzzzzz"));
+console.log(randomStringFromTemplate("xxxxx-xxxxx-xxxxx", "abc123"));
+
+```
+
+Output
+
+```
+3
+7.156
+2
+c
+true
+aovxhxsl
++8(979)4234540
+krhyylyljs@gluqsepbpz.wjd
+182.141.124.210
+39bBD-cc7
+
+babab
+649-9481-45-10
+ijdsljjfgw+123@gtapjdmabiyyy.kupzzz
+123c1-231c1-1a12a
 ```
