@@ -8,23 +8,31 @@ https://www.youtube.com/@QANSIGLIERE/
 
 ## Installing
 
-Using npm: `npm i qansigliere-randomdatagenerators`
+Using npm:
+
+`npm i qansigliere-randomdatagenerators`
 
 ## Functions
 
--   randomInteger - it returns a random integer value from 0 to the specified maximum value, but the maximum value is
+-   `randomInteger` - it returns a random integer value from 0 to the specified maximum value, but the maximum value is
     not included
--   randomFloat - it returns a random float value from 0 to the specified maximum value, but the maximum value is not
+-   `randomFloat` - it returns a random float value from 0 to the specified maximum value, but the maximum value is not
     included and you can control the number of digits after the dot
--   randomIntegerBetweenMinMax - it returns a random integer value from the specified minimum value to the specified
+-   `randomIntegerBetweenMinMax` - it returns a random integer value from the specified minimum value to the specified
     maximum value, but the maximum value is not included
--   randomArrayItem - it returns a random element of the specified array
--   randomBoolean - it returns true or false value
--   randomString - it returns a random string value according to the specified length and character set
--   randomPhoneNumber - it returns a random phone number according to the specified template
--   randomEmail - it returns a random email address according to the specified template
--   randomIP - it returns a random IP address
--   randomStringFromTemplate - it returns a random string value according to the specified template and character set
+-   `randomArrayItem` - it returns a random element of the specified array
+-   `randomBoolean` - it returns true or false value
+-   `randomString` - it returns a random string value according to the specified length and character set
+-   `randomPhoneNumber` - it returns a random phone number according to the specified template
+-   `randomEmail` - it returns a random email address according to the specified template
+-   `randomIP` - it returns a random IP address
+-   `randomStringFromTemplate` - it returns a random string value according to the specified template and character set
+-   `randomTimeZone` - it returns a JSON object with 2 keys - "name" and "value"
+-   `randomCurrency` - it returns a JSON object with 3 keys - "country", "currency_code" and "symbol"
+-   `randomEmoji' - it returns a JSON object with 3 keys - "emoji", "name" and "unicode"
+-   `randomColor` - it returns a JSON object with 2 keys - "color" and "code"
+-   `randomCarType` - it returns a random car type: "Car", "Truck", "SUV", "Van", "Motorcycle", "Other"
+-   `randomCarBrand` - it returns a random car brand
 
 ## Example
 
@@ -42,6 +50,12 @@ var {
   randomEmail,
   randomIP,
   randomStringFromTemplate,
+  randomTimeZone,
+  randomCurrency,
+  randomEmoji,
+  randomColor,
+  randomCarType,
+  randomCarBrand,
 } = require("qansigliere-randomdatagenerators");
 
 console.log(randomInteger(9));
@@ -97,6 +111,12 @@ import {
   randomEmail,
   randomIP,
   randomStringFromTemplate,
+  randomTimeZone,
+  randomCurrency,
+  randomEmoji,
+  randomColor,
+  randomCarType,
+  randomCarBrand,
 } from "qansigliere-randomdatagenerators";
 
 console.log(randomInteger(9));
