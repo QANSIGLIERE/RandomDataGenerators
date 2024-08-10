@@ -98,7 +98,7 @@ wiopcjxowh+123@isugadikakyyy.jiezzz // randomEmail
 ### ES Module
 
 ```
-// CommonJS
+// ES Module
 
 import {
   randomInteger,
