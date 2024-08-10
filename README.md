@@ -29,7 +29,7 @@ Using npm:
 -   `randomStringFromTemplate` - it returns a random string value according to the specified template and character set
 -   `randomTimeZone` - it returns a JSON object with 2 keys - "name" and "value"
 -   `randomCurrency` - it returns a JSON object with 3 keys - "country", "currency_code" and "symbol"
--   `randomEmoji' - it returns a JSON object with 3 keys - "emoji", "name" and "unicode"
+-   `randomEmoji` - it returns a JSON object with 3 keys - "emoji", "name" and "unicode"
 -   `randomColor` - it returns a JSON object with 2 keys - "color" and "code"
 -   `randomCarType` - it returns a random car type: "Car", "Truck", "SUV", "Van", "Motorcycle", "Other"
 -   `randomCarBrand` - it returns a random car brand
