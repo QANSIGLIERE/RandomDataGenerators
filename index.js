@@ -15,6 +15,12 @@ var {
     randomColor,
     randomCarType,
     randomCarBrand,
+    randomName,
+    randomCountry,
+    randomUSState,
+    randomCanadaState,
+    randomUSAddress,
+    randomCanadaAddress,
 } = require('./lib/randomDataGenerators.js');
 
 module.exports.randomInteger = randomInteger;
@@ -33,3 +39,9 @@ module.exports.randomEmoji = randomEmoji;
 module.exports.randomColor = randomColor;
 module.exports.randomCarType = randomCarType;
 module.exports.randomCarBrand = randomCarBrand;
+module.exports.randomName = randomName;
+module.exports.randomCountry = randomCountry;
+module.exports.randomUSState = randomUSState;
+module.exports.randomCanadaState = randomCanadaState;
+module.exports.randomUSAddress = randomUSAddress;
+module.exports.randomCanadaAddress = randomCanadaAddress;

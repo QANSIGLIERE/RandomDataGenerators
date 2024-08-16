@@ -1,0 +1,848 @@
+[
+    {
+        "country": "United States of America",
+        "alpha2-code": "US",
+        "alpha3-code": "USA",
+        "states": [
+            {
+                "abbreviation": "AL",
+                "name": "Alabama",
+                "zip_codes": [
+                    {
+                        "zip_code": "36104",
+                        "street_1": "309 S Jackson St",
+                        "street_2": "",
+                        "city": "Montgomery",
+                        "lat_lon": "32.37340052011576, -86.29590489814328"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "AK",
+                "name": "Alaska",
+                "zip_codes": [
+                    {
+                        "zip_code": "99801",
+                        "street_1": "120 4th St",
+                        "street_2": "",
+                        "city": "Juneau",
+                        "lat_lon": "58.30203656744647, -134.41028514321187"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "AZ",
+                "name": "Arizona",
+                "zip_codes": [
+                    {
+                        "zip_code": "85006",
+                        "street_1": "1505 E Van Buren St",
+                        "street_2": "",
+                        "city": "Phoenix",
+                        "lat_lon": "33.45208461548364, -112.04970506966366"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "AR",
+                "name": "Arkansas",
+                "zip_codes": [
+                    {
+                        "zip_code": "72206",
+                        "street_1": "310 W 17th St",
+                        "street_2": "",
+                        "city": "Little Rock",
+                        "lat_lon": "34.73344134652448, -92.27619697273501"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "CA",
+                "name": "California",
+                "zip_codes": [
+                    {
+                        "zip_code": "95814",
+                        "street_1": "1315 10th St",
+                        "street_2": "",
+                        "city": "Sacramento",
+                        "lat_lon": "38.57671398476438, -121.49316170158318"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "CO",
+                "name": "Colorado",
+                "zip_codes": [
+                    {
+                        "zip_code": "80203",
+                        "street_1": "200 E Colfax Ave",
+                        "street_2": "",
+                        "city": "Denver",
+                        "lat_lon": "39.73949007248147, -104.98483908988705"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "CT",
+                "name": "Connecticut",
+                "zip_codes": [
+                    {
+                        "zip_code": "06105",
+                        "street_1": "351 Farmington Ave",
+                        "street_2": "",
+                        "city": "Hartford",
+                        "lat_lon": "41.7685631127819, -72.70169176876037"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "DE",
+                "name": "Delaware",
+                "zip_codes": [
+                    {
+                        "zip_code": "19801",
+                        "street_1": "519 N Market St",
+                        "street_2": "",
+                        "city": "Wilmington",
+                        "lat_lon": "39.74219482600524, -75.55046595989606"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "FL",
+                "name": "Florida",
+                "zip_codes": [
+                    {
+                        "zip_code": "32301",
+                        "street_1": "301 S Bronough St",
+                        "street_2": "",
+                        "city": "Tallahassee",
+                        "lat_lon": "30.440591146627373, -84.28408886926779"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "GA",
+                "name": "Georgia",
+                "zip_codes": [
+                    {
+                        "zip_code": "30308",
+                        "street_1": "600 Peachtree St NE",
+                        "street_2": "",
+                        "city": "Atlanta",
+                        "lat_lon": "33.77088606983043, -84.38599456129361"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "HI",
+                "name": "Hawaii",
+                "zip_codes": [
+                    {
+                        "zip_code": "96813",
+                        "street_1": "447 S King St",
+                        "street_2": "",
+                        "city": "Honolulu",
+                        "lat_lon": "21.30674490014659, -157.8599312274525"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "ID",
+                "name": "Idaho",
+                "zip_codes": [
+                    {
+                        "zip_code": "83706",
+                        "street_1": "11 N Orchard St",
+                        "street_2": "",
+                        "city": "Boise",
+                        "lat_lon": "43.60533149482405, -116.24358019120224"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "IL",
+                "name": "Illinois",
+                "zip_codes": [
+                    {
+                        "zip_code": "62701",
+                        "street_1": "212 N 6th St",
+                        "street_2": "",
+                        "city": "Springfield",
+                        "lat_lon": "39.80372370514447, -89.64701933471335"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "IN",
+                "name": "Indiana",
+                "zip_codes": [
+                    {
+                        "zip_code": "46204",
+                        "street_1": "200 W Washington St",
+                        "street_2": "",
+                        "city": "Indianapolis",
+                        "lat_lon": "39.76892498118518, -86.16289911872191"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "IA",
+                "name": "Iowa",
+                "zip_codes": [
+                    {
+                        "zip_code": "50319",
+                        "street_1": "1007 E Grand Ave",
+                        "street_2": "",
+                        "city": "Des Moines",
+                        "lat_lon": "41.59196987785043, -93.60372193082672"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "KS",
+                "name": "Kansas",
+                "zip_codes": [
+                    {
+                        "zip_code": "66612",
+                        "street_1": "1515 SE Monroe St",
+                        "street_2": "",
+                        "city": "Topeka",
+                        "lat_lon": "39.038760898910496, -95.67651287857144"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "KY",
+                "name": "Kentucky",
+                "zip_codes": [
+                    {
+                        "zip_code": "40601",
+                        "street_1": "311 St Clair St",
+                        "street_2": "",
+                        "city": "Frankfort",
+                        "lat_lon": "38.19921209476903, -84.87711961332077"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "LA",
+                "name": "Louisiana",
+                "zip_codes": [
+                    {
+                        "zip_code": "70802",
+                        "street_1": "1051 N 3rd St",
+                        "street_2": "",
+                        "city": "Baton Rouge",
+                        "lat_lon": "30.457229854868952, -91.1874750190836"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "ME",
+                "name": "Maine",
+                "zip_codes": [
+                    {
+                        "zip_code": "04330",
+                        "street_1": "300 Water St",
+                        "street_2": "",
+                        "city": "Augusta",
+                        "lat_lon": "44.31453801010128, -69.7747135968708"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MD",
+                "name": "Maryland",
+                "zip_codes": [
+                    {
+                        "zip_code": "21401",
+                        "street_1": "69 West St",
+                        "street_2": "",
+                        "city": "Annapolis",
+                        "lat_lon": "38.9785868842344, -76.49588739290803"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MA",
+                "name": "Massachusetts",
+                "zip_codes": [
+                    {
+                        "zip_code": "02116",
+                        "street_1": "90 Newbury St",
+                        "street_2": "",
+                        "city": "Boston",
+                        "lat_lon": "42.35275029328976, -71.07383624754746"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MI",
+                "name": "Michigan",
+                "zip_codes": [
+                    {
+                        "zip_code": "48933",
+                        "street_1": "100 N Capitol Ave",
+                        "street_2": "",
+                        "city": "Lansing",
+                        "lat_lon": "42.73373769815753, -84.55538367440681"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MN",
+                "name": "Minnesota",
+                "zip_codes": [
+                    {
+                        "zip_code": "55101",
+                        "street_1": "491 Jackson St",
+                        "street_2": "",
+                        "city": "St Paul",
+                        "lat_lon": "44.951314968481704, -93.0927235536883"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MS",
+                "name": "Mississippi",
+                "zip_codes": [
+                    {
+                        "zip_code": "39202",
+                        "street_1": "1109 Pinehurst St",
+                        "street_2": "",
+                        "city": "Jackson",
+                        "lat_lon": "32.31760400602572, -90.16928475550876"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MO",
+                "name": "Missouri",
+                "zip_codes": [
+                    {
+                        "zip_code": "65109",
+                        "street_1": "711 Kansas St",
+                        "street_2": "",
+                        "city": "Jefferson City",
+                        "lat_lon": "38.57715872817988, -92.18973276721037"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MT",
+                "name": "Montana",
+                "zip_codes": [
+                    {
+                        "zip_code": "59601",
+                        "street_1": "1301 E 6th Ave",
+                        "street_2": "",
+                        "city": "Helena",
+                        "lat_lon": "46.58618089519082, -112.01840750597617"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NE",
+                "name": "Nebraska",
+                "zip_codes": [
+                    {
+                        "zip_code": "68504",
+                        "street_1": "333 N 48th St",
+                        "street_2": "",
+                        "city": "Lincoln",
+                        "lat_lon": "40.816562985133196, -96.65507441605797"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NV",
+                "name": "Nevada",
+                "zip_codes": [
+                    {
+                        "zip_code": "89703",
+                        "street_1": "449 W King St",
+                        "street_2": "",
+                        "city": "Carson City",
+                        "lat_lon": "39.16421216373182, -119.76617659758435"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NH",
+                "name": "New Hampshire",
+                "zip_codes": [
+                    {
+                        "zip_code": "03301",
+                        "street_1": "45 Green St",
+                        "street_2": "",
+                        "city": "Concord",
+                        "lat_lon": "43.206851198952116, -71.54033829467208"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NJ",
+                "name": "New Jersey",
+                "zip_codes": [
+                    {
+                        "zip_code": "08608",
+                        "street_1": "322 E State St",
+                        "street_2": "",
+                        "city": "Trenton",
+                        "lat_lon": "40.22114436912865, -74.7587977016457"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NM",
+                "name": "New Mexico",
+                "zip_codes": [
+                    {
+                        "zip_code": "87505",
+                        "street_1": "930 Baca St #1",
+                        "street_2": "",
+                        "city": "Santa Fe",
+                        "lat_lon": "35.6731284051344, -105.96304768940598"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NY",
+                "name": "New York",
+                "zip_codes": [
+                    {
+                        "zip_code": "12210",
+                        "street_1": "89 Washington Ave",
+                        "street_2": "",
+                        "city": "Albany",
+                        "lat_lon": "42.65293767717925, -73.75729244742732"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NC",
+                "name": "North Carolina",
+                "zip_codes": [
+                    {
+                        "zip_code": "27603",
+                        "street_1": "417 W Peace St",
+                        "street_2": "#100",
+                        "city": "Raleigh",
+                        "lat_lon": "35.78817494814708, -78.64486327811045"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "ND",
+                "name": "North Dakota",
+                "zip_codes": [
+                    {
+                        "zip_code": "58504",
+                        "street_1": "2821 Rock Island Pl",
+                        "street_2": "",
+                        "city": "Bismarck",
+                        "lat_lon": "46.7945068050409, -100.74723087830334"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "OH",
+                "name": "Ohio",
+                "zip_codes": [
+                    {
+                        "zip_code": "43207",
+                        "street_1": "2031 Lockbourne Rd",
+                        "street_2": "",
+                        "city": "Columbus",
+                        "lat_lon": "39.92449195730056, -82.96590885128222"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "OK",
+                "name": "Oklahoma",
+                "zip_codes": [
+                    {
+                        "zip_code": "73105",
+                        "street_1": "2300 N Lincoln Blvd",
+                        "street_2": "",
+                        "city": "Oklahoma City",
+                        "lat_lon": "35.49234326756768, -97.50326766122751"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "OR",
+                "name": "Oregon",
+                "zip_codes": [
+                    {
+                        "zip_code": "97301",
+                        "street_1": "450 Marion St NE",
+                        "street_2": "",
+                        "city": "Salem",
+                        "lat_lon": "44.94414395990163, -123.03595657264611"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "PA",
+                "name": "Pennsylvania",
+                "zip_codes": [
+                    {
+                        "zip_code": "17120",
+                        "street_1": "501 N 3rd St",
+                        "street_2": "",
+                        "city": "Harrisburg",
+                        "lat_lon": "40.26520832565661, -76.88362162008613"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "RI",
+                "name": "Rhode Island",
+                "zip_codes": [
+                    {
+                        "zip_code": "02903",
+                        "street_1": "95 Chestnut St",
+                        "street_2": "",
+                        "city": "Providence",
+                        "lat_lon": "41.8193860085055, -71.41180259554669"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "SC",
+                "name": "South Carolina",
+                "zip_codes": [
+                    {
+                        "zip_code": "29207",
+                        "street_1": "6511 Marion Ave",
+                        "street_2": "",
+                        "city": "Columbia",
+                        "lat_lon": "34.01767913510442, -80.93321623987482"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "SD",
+                "name": "South Dakota",
+                "zip_codes": [
+                    {
+                        "zip_code": "57501",
+                        "street_1": "301 E Dakota Ave",
+                        "street_2": "",
+                        "city": "Pierre",
+                        "lat_lon": "44.364312439925, -100.35237210587411"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "TN",
+                "name": "Tennessee",
+                "zip_codes": [
+                    {
+                        "zip_code": "37212",
+                        "street_1": "2000 Grand Ave",
+                        "street_2": "",
+                        "city": "Nashville",
+                        "lat_lon": "36.14798314730816, -86.79819128483783"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "TX",
+                "name": "Texas",
+                "zip_codes": [
+                    {
+                        "zip_code": "78701",
+                        "street_1": "101 Red River St",
+                        "street_2": "",
+                        "city": "Austin",
+                        "lat_lon": "30.262310319084897, -97.73822535234493"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "UT",
+                "name": "Utah",
+                "zip_codes": [
+                    {
+                        "zip_code": "84103",
+                        "street_1": "350 State St",
+                        "street_2": "",
+                        "city": "Salt Lake City",
+                        "lat_lon": "40.777713999426155, -111.8882874945865"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "VT",
+                "name": "Vermont",
+                "zip_codes": [
+                    {
+                        "zip_code": "05602",
+                        "street_1": "3 Main St",
+                        "street_2": "",
+                        "city": "Montpelier",
+                        "lat_lon": "44.25834218256089, -72.57715357857312"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "VA",
+                "name": "Virginia",
+                "zip_codes": [
+                    {
+                        "zip_code": "23223",
+                        "street_1": "2803 Dock St",
+                        "street_2": "",
+                        "city": "Richmond",
+                        "lat_lon": "37.54110651684439, -77.41533279072999"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "WA",
+                "name": "Washington",
+                "zip_codes": [
+                    {
+                        "zip_code": "98109",
+                        "street_1": "305 Harrison St",
+                        "street_2": "",
+                        "city": "Seattle",
+                        "lat_lon": "47.62093490881548, -122.35043430707098"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "WV",
+                "name": "West Virginia",
+                "zip_codes": [
+                    {
+                        "zip_code": "25305",
+                        "street_1": "1900 Kanawha Blvd E",
+                        "street_2": "",
+                        "city": "Charleston",
+                        "lat_lon": "38.33637898231384, -81.61209502856961"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "WI",
+                "name": "Wisconsin",
+                "zip_codes": [
+                    {
+                        "zip_code": "53702",
+                        "street_1": "2 E Main St",
+                        "street_2": "",
+                        "city": "Madison",
+                        "lat_lon": "43.07482616344992, -89.38418128973528"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "WY",
+                "name": "Wyoming",
+                "zip_codes": [
+                    {
+                        "zip_code": "82001",
+                        "street_1": "200 W 24th St",
+                        "street_2": "",
+                        "city": "Cheyenne",
+                        "lat_lon": "41.14033969039053, -104.82016958797182"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "DC",
+                "name": "District of Columbia",
+                "zip_codes": [
+                    {
+                        "zip_code": "20540",
+                        "street_1": "101 Independence Ave SE",
+                        "street_2": "",
+                        "city": "Washington",
+                        "lat_lon": "38.88904584087738, -77.00456715011"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Canada",
+        "alpha2-code": "CA",
+        "alpha3-code": "CAN",
+        "states": [
+            {
+                "abbreviation": "AB",
+                "name": "Alberta",
+                "zip_codes": [
+                    {
+                        "zip_code": "T2S 0B1",
+                        "street_1": "502 17 Ave SW",
+                        "street_2": "",
+                        "city": "Calgary",
+                        "lat_lon": "51.03947261068854, -114.07211911527021"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "BC",
+                "name": "British Columbia",
+                "zip_codes": [
+                    {
+                        "zip_code": "V8W 1E4",
+                        "street_1": "804 Broughton St",
+                        "street_2": "",
+                        "city": "Victoria",
+                        "lat_lon": "48.42389228005543, -123.3622951802546"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "MB",
+                "name": "Manitoba",
+                "zip_codes": [
+                    {
+                        "zip_code": "R2H 0H7",
+                        "street_1": "180 De La Cathedrale Ave",
+                        "street_2": "",
+                        "city": "Winnipeg",
+                        "lat_lon": "49.889748685601155, -97.12093043064057"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NB",
+                "name": "New Brunswick",
+                "zip_codes": [
+                    {
+                        "zip_code": "E3B 3P7",
+                        "street_1": "380 York St",
+                        "street_2": "",
+                        "city": "Fredericton",
+                        "lat_lon": "45.95655968541859, -66.6475106614355"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NL",
+                "name": "Newfoundland and Labrador",
+                "zip_codes": [
+                    {
+                        "zip_code": "A1B 1W3",
+                        "street_1": "48 Kenmount Rd",
+                        "street_2": "",
+                        "city": "St. John's",
+                        "lat_lon": "47.56139685712612, -52.75498820835875"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NS",
+                "name": "Nova Scotia",
+                "zip_codes": [
+                    {
+                        "zip_code": "B3K 4E2",
+                        "street_1": "2733 Agricola St",
+                        "street_2": "",
+                        "city": "Halifax",
+                        "lat_lon": "44.658331131306184, -63.59643944812962"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NT",
+                "name": "Northwest Territories",
+                "zip_codes": [
+                    {
+                        "zip_code": "X1A 3T2",
+                        "street_1": "100 Idaa Rd",
+                        "street_2": "",
+                        "city": "Yellowknife",
+                        "lat_lon": "62.475082095785204, -114.43578271557914"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "NU",
+                "name": "Nunavut",
+                "zip_codes": [
+                    {
+                        "zip_code": "X0A 3H0",
+                        "street_1": "657 Pitsi Ln",
+                        "street_2": "",
+                        "city": "Iqaluit",
+                        "lat_lon": "63.74774257149325, -68.51664530958398"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "ON",
+                "name": "Ontario",
+                "zip_codes": [
+                    {
+                        "zip_code": "M5S 2C6",
+                        "street_1": "100 Queens Park",
+                        "street_2": "",
+                        "city": "Toronto",
+                        "lat_lon": "43.6681900147965, -79.39485847916235"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "PE",
+                "name": "Prince Edward Island",
+                "zip_codes": [
+                    {
+                        "zip_code": "C1A 4P3",
+                        "street_1": "550 University Ave",
+                        "street_2": "",
+                        "city": "Charlottetown",
+                        "lat_lon": "46.25770848002443, -63.1386690408637"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "QC",
+                "name": "Quebec",
+                "zip_codes": [
+                    {
+                        "zip_code": "G1K 3A6",
+                        "street_1": "75 Rue Saint-Joseph E",
+                        "street_2": "",
+                        "city": "Québec",
+                        "lat_lon": "46.812563639653845, -71.23002889029557"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "SK",
+                "name": "Saskatchewan",
+                "zip_codes": [
+                    {
+                        "zip_code": "S4T 6Y5",
+                        "street_1": "2104 Garnet St",
+                        "street_2": "",
+                        "city": "Regina",
+                        "lat_lon": "50.44533464880434, -104.62628260940468"
+                    }
+                ]
+            },
+            {
+                "abbreviation": "YT",
+                "name": "Yukon",
+                "zip_codes": [
+                    {
+                        "zip_code": "Y1A 1B9",
+                        "street_1": "2112 2nd Ave",
+                        "street_2": "",
+                        "city": "Whitehorse",
+                        "lat_lon": "60.72028396179211, -135.05294584853263"
+                    }
+                ]
+            }
+        ]
+    }
+]
