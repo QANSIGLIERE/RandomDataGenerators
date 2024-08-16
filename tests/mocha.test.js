@@ -15,6 +15,12 @@ var {
     randomColor,
     randomCarType,
     randomCarBrand,
+    randomName,
+    randomCountry,
+    randomUSState,
+    randomCanadaState,
+    randomUSAddress,
+    randomCanadaAddress,
 } = require('../lib/randomDataGenerators.js');
 var expect = require('expect.js');
 
@@ -275,5 +281,85 @@ describe('Random Data Generators library', () => {
     it('randomCarBrand: Validate the function returns a string', () => {
         const result = randomCarBrand();
         expect(result).to.be.an('string');
+    });
+
+    it('randomName: Validate the function returns a string value ', () => {
+        const result = randomName();
+        expect(result).to.be.a('string');
+    });
+
+    it('randomCountry: Validate the function returns an object', () => {
+        const result = randomCountry();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomCountry: Validate it returns a non empty object', () => {
+        const result = randomCountry();
+        expect(result['country']).to.be.a('string');
+    });
+
+    it('randomCountry: Validate keys in the returned JSON', () => {
+        const result = randomCountry();
+        expect(result).to.only.have.keys('country', 'alpha2-code', 'alpha3-code');
+    });
+
+    it('randomUSState: Validate the function returns an object', () => {
+        const result = randomUSState();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomUSState: Validate it returns a non empty object', () => {
+        const result = randomUSState();
+        expect(result['name']).to.be.a('string');
+    });
+
+    it('randomUSState: Validate keys in the returned JSON', () => {
+        const result = randomUSState();
+        expect(result).to.only.have.keys('abbreviation', 'name');
+    });
+
+    it('randomCanadaState: Validate the function returns an object', () => {
+        const result = randomCanadaState();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomCanadaState: Validate it returns a non empty object', () => {
+        const result = randomCanadaState();
+        expect(result['name']).to.be.a('string');
+    });
+
+    it('randomCanadaState: Validate keys in the returned JSON', () => {
+        const result = randomCanadaState();
+        expect(result).to.only.have.keys('abbreviation', 'name');
+    });
+
+    it('randomUSAddress: Validate the function returns an object', () => {
+        const result = randomUSAddress();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomUSAddress: Validate it returns a non empty object', () => {
+        const result = randomUSAddress();
+        expect(result['lat_lon']).to.be.a('string');
+    });
+
+    it('randomUSAddress: Validate keys in the returned JSON', () => {
+        const result = randomUSAddress();
+        expect(result).to.only.have.keys('street_1', 'street_2', 'city', 'state', 'zip_code', 'lat_lon');
+    });
+
+    it('randomCanadaAddress: Validate the function returns an object', () => {
+        const result = randomCanadaAddress();
+        expect(result).to.be.an('object');
+    });
+
+    it('randomCanadaAddress: Validate it returns a non empty object', () => {
+        const result = randomCanadaAddress();
+        expect(result['lat_lon']).to.be.a('string');
+    });
+
+    it('randomCanadaAddress: Validate keys in the returned JSON', () => {
+        const result = randomCanadaAddress();
+        expect(result).to.only.have.keys('street_1', 'street_2', 'city', 'state', 'zip_code', 'lat_lon');
     });
 });
