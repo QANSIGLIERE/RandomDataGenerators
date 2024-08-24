@@ -241,3 +241,7 @@ Brooks
 {"street_1":"351 Farmington Ave","street_2":"","city":"Hartford","state":"Connecticut","zip_code":"06105","lat_lon":"41.7685631127819, -72.70169176876037"}
 {"street_1":"2112 2nd Ave","street_2":"","city":"Whitehorse","state":"Yukon","zip_code":"Y1A 1B9","lat_lon":"60.72028396179211, -135.05294584853263"}
 ```
+
+## Improvements & Suggestions
+
+https://forms.gle/s7dPoPFQMQBPjzQw9
