@@ -6,6 +6,8 @@ The library is based on the Javascript programming language and it contains a se
 
 https://www.youtube.com/@QANSIGLIERE/
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sYgK0BGxnsI/0.jpg)](https://www.youtube.com/watch?v=sYgK0BGxnsI)
+
 ## Installing
 
 Using npm:

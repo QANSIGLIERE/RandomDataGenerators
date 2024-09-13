@@ -1,6 +1,6 @@
 {
   "name": "qansigliere-randomdatagenerators",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "This library contains different functions to generate some random data (integer, float, string and other values)",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "node"
   ],
   "author": "qansigliere@gmail.com",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/QANSIGLIERE/RandomDataGenerators/issues"
   },
