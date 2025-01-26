@@ -1,4 +1,4 @@
-# RandomDataGenerators
+# Random Data Generators
 
 The library is based on the Javascript programming language and it contains a set of functions to generate some data
 
@@ -246,4 +246,4 @@ Brooks
 
 ## Improvements & Suggestions
 
-https://forms.gle/s7dPoPFQMQBPjzQw9
+https://forms.gle/wq8DiGRQH7y39si9A
