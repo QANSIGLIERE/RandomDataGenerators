@@ -21,6 +21,7 @@ var {
     randomCanadaState,
     randomUSAddress,
     randomCanadaAddress,
+    randomSSN,
 } = require('../lib/randomDataGenerators.js');
 var expect = require('expect.js');
 
@@ -361,5 +362,15 @@ describe('Random Data Generators library', () => {
     it('randomCanadaAddress: Validate keys in the returned JSON', () => {
         const result = randomCanadaAddress();
         expect(result).to.only.have.keys('street_1', 'street_2', 'city', 'state', 'zip_code', 'lat_lon');
+    });
+
+    it('randomSSN: Validate it returns a non empty string', () => {
+        const result = randomSSN();
+        expect(result).to.be.a('string');
+    });
+
+    it('randomSSN: Validate the function returns a random string with the correct length', () => {
+        const result = randomSSN();
+        expect(result).to.have.length(11);
     });
 });

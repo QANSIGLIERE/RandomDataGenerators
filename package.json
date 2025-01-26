@@ -1,6 +1,6 @@
 {
   "name": "qansigliere-randomdatagenerators",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "This library contains different functions to generate some random data (integer, float, string and other values)",
   "main": "index.js",
   "scripts": {
