@@ -22,6 +22,7 @@ var {
     randomUSAddress,
     randomCanadaAddress,
     randomSSN,
+    realUSNumber,
 } = require('../lib/randomDataGenerators.js');
 var expect = require('expect.js');
 
@@ -372,5 +373,15 @@ describe('Random Data Generators library', () => {
     it('randomSSN: Validate the function returns a random string with the correct length', () => {
         const result = randomSSN();
         expect(result).to.have.length(11);
+    });
+
+    it('realUSNumber: Validate it returns a non empty string', () => {
+        const result = realUSNumber();
+        expect(result).to.be.a('string');
+    });
+
+    it('realUSNumber: Validate the function returns a random string with the correct length', () => {
+        const result = realUSNumber();
+        expect(result).to.have.length(10);
     });
 });
