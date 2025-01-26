@@ -22,6 +22,7 @@ var {
     randomUSAddress,
     randomCanadaAddress,
     randomSSN,
+    realUSNumber,
 } = require('./lib/randomDataGenerators.js');
 
 module.exports.randomInteger = randomInteger;
@@ -47,3 +48,4 @@ module.exports.randomCanadaState = randomCanadaState;
 module.exports.randomUSAddress = randomUSAddress;
 module.exports.randomCanadaAddress = randomCanadaAddress;
 module.exports.randomSSN = randomSSN;
+module.exports.realUSNumber = realUSNumber;
