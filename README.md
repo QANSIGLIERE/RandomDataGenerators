@@ -8,7 +8,11 @@ https://www.youtube.com/@QANSIGLIERE/
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sYgK0BGxnsI/0.jpg)](https://www.youtube.com/watch?v=sYgK0BGxnsI)
 
-## Installing
+## Support the project
+
+https://buymeacoffee.com/qansigliere
+
+## Installation
 
 Using npm:
 
@@ -246,4 +250,4 @@ Brooks
 
 ## Improvements & Suggestions
 
-https://forms.gle/wq8DiGRQH7y39si9A
+https://forms.gle/GZbS9hw42tSYJxKL7
