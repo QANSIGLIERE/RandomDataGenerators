@@ -33,6 +33,7 @@ export function randomUSAddress(): {
     street_2: any;
     city: any;
     state: any;
+    state_abbreviation: any;
     zip_code: any;
     lat_lon: any;
 };
@@ -41,6 +42,7 @@ export function randomCanadaAddress(): {
     street_2: any;
     city: any;
     state: any;
+    state_abbreviation: any;
     zip_code: any;
     lat_lon: any;
 };
